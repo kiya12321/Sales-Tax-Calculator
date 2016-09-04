@@ -1,0 +1,16 @@
+#State tax is 4% (0.04)
+#County tax is 2% (0.02
+
+
+price = float(input("Cost of Purchase: "))
+state_tax = price * 0.04
+county_tax = price * 0.02
+total_tax = state_tax + county_tax
+total = price + total_tax
+
+
+print('\nPurchase: %0.2f' % (price))
+print('State Tax: %0.2f' % (state_tax))
+print('County Tax: %0.2f' % (county_tax))
+print('Total Tax: %0.2f' % (total_tax))
+print('\nTotal Cost: %0.2f' % (total))
