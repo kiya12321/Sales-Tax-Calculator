@@ -1,0 +1,33 @@
+# Lab 2.7 – Programming Challenge 1 – Retail Tax by Kari Tant
+# State tax is 4% (0.04)
+# County tax is 2% (0.02
+
+print("\nWelcome to the total tax calculator program")
+
+
+def main():
+    cost = inputData
+    state_tax = calcState
+    county_tax = calcCounty
+    tax_total = calcTotal
+    cost_total = printData
+
+
+inputData = float(input("\nEnter the total sales for the month: $"))
+calcState = inputData * 0.04
+calcCounty = inputData * 0.02
+calcTotal = calcState + calcCounty
+printData = inputData + calcTotal
+
+main()
+
+
+def output():
+    print('\nThe purchase is $%0.2f' % (inputData))
+    print('The state tax is $%0.2f' % (calcState))
+    print('The county tax is $%0.2f' % (calcCounty))
+    print('The total tax is $%0.2f' % (calcTotal))
+    print('\nThe total cost is $%0.2f' % (printData))
+
+
+output()
